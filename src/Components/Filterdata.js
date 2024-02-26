@@ -83,4 +83,4 @@ function Filterdata() {
   return renderedContent;
 }
 
-export default Filterdata;
+export default Filterdata
