@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/Country-Dex">
+    <Router basename="/">
       <div className="App">
         <Navbar />
         <Routes>
