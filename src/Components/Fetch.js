@@ -8,7 +8,7 @@ import "../Styles/Fetch.css";
 function Fetch() {
   const { setApiData, apiError, setApiError } = useContext(SearchContext);
   const [loading, setLoading] = useState(true);
-
+ 
   useEffect(() => {
     let isMounted = true;
 
