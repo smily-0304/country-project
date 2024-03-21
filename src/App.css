@@ -9,10 +9,12 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
+    
 }
 .App {
     color: var(--text-color);
-    background-color: var(--bg-color);
+     background-color: var(--bg-color); 
+    
 }
 
 /* Global Variables */
@@ -30,3 +32,4 @@ body {
     --nav-shadow-color: #ece7e7;
     --btn-hover: #E9E8E8;
 }
+

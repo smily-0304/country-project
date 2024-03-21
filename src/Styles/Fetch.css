@@ -2,40 +2,48 @@
     min-height: 100vh;
     padding: 32px 40px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
     background-color: var(--bg-color);
 }
 .main-body-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 120px;
+    
+    
 }
+
+
+
 .main-body-container a {
     text-decoration: none;
 }
 .main-body-error {
+    
     width: 100%;
 }
 /* Country Card */
 .country-card {
-    width: 300px;
+    width: 310px;
     min-height: 350px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: var(--nav-bg-color);
     box-shadow: 2px 2px 2px var(--btn-hover), -2px -2px 2px var(--btn-hover), 2px -2px 2px var(--btn-hover), -2px 2px 2px var(--btn-hover);
     transition: transform .3s ease;
+    border: 2px solid black;
+
 }
 .country-card:hover {
     transform: scale(1.04);
 }
 .ctd-img {
-    width: 300px;
+    width: 307px;
     height: 200px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .ctd-img img {
     width: 100%;

@@ -5,9 +5,10 @@ import Error from "../Components/Error";
 import Spinner from "../Components/Spinner";
 import { findCountryName } from "../Components/CountryCodes";
 import "../Styles/CountryDetails.css";
+import FooterOf from "../Components/Footer";
 
 function CountryDetails() {
-  // useNavigate to change route/page path
+ 
   const navigate = useNavigate();
   const { country } = useParams();
   const [apiData, setApiData] = useState(null);
@@ -23,7 +24,7 @@ function CountryDetails() {
     );
 
   useEffect(() => {
-    // start loading screen and clear previous errors
+    
     setLoading(true);
     setError(null);
 
@@ -176,8 +177,11 @@ function CountryDetails() {
           </div>
         </div>
       )}
+     <FooterOf/>
     </section>
+    
   );
 }
+
 
 export default CountryDetails;

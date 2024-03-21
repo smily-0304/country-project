@@ -6,9 +6,11 @@
     align-items: center;
     color: var(--text-color);
     background-color: var(--nav-bg-color);
+    /* background-color:red ; */
 }
 .navbar-title {
     letter-spacing: .5px;
+    
 }
 .navbar-title a {
     text-decoration: none;
@@ -23,7 +25,7 @@
     border: 1px solid transparent;
     border-radius: 10px;
     outline: transparent;
-    color: var(--text-color);
+     color: var(--text-color);
     background-color: var(--nav-bg-color);
     font-size: 18px;
     font-weight: 600;
