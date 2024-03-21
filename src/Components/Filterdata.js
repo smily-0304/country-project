@@ -99,7 +99,7 @@ function Filterdata() {
       color: "black", 
       position:"relative",          
       backgroundColor: "white",
-      width:"70px",
+      width:"60px",
       right:"270px",
       '&.Mui-selected': {
         backgroundColor:"blue",
