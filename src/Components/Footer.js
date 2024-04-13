@@ -20,7 +20,7 @@ const FooterOf=()=>{
              <div className="links">
                 <h2>Follow us:</h2>
              <a href="https://github.com/smily-0304/country-project" class="fa fa-github"></a>
-              <a href="https://restcountries.com/" class="fa fa-google"></a>
+              <a  class="fa fa-google"></a>
              </div>
                </div>
          </footer>

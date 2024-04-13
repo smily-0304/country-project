@@ -92,8 +92,8 @@ function Filterdata() {
                       width: "60px",
                     },
                     "& .Mui-selected": {
-                      backgroundColor: "white",
-                      color: "blue",
+                      backgroundColor: "blue",
+                      color: "white",
                     },
                   }}
                 />
